@@ -18,12 +18,11 @@
 
         <div class="box" v-show="showResponse">
             <div class="title-box">
-                Exibind o resultado para {{ categoryName }}
+                Exibindo resultado para {{ categoryName }}
             </div>
 
             <div class="content-box response-content">
                 <Anime
-                    v-show="showResponse"
                     v-for="anime in animeObj"
                     :key="anime.id"
                     :data="anime"

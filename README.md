@@ -1,24 +1,26 @@
-# anime
+# Anime Search
 
-## Project setup
+Aplicação para pesquisa de animes a partir de categorias predefinidas
+
+- [X] Consumo de API externa
+- [X] Sistema de pesquisa
+- [X] Sistema de rotas
+- [X] Rotas dinâmicas
+
+## API 
+
+Para a desenvolvimento da aplicação foi utilizada a API externa chamada <b>Kitsu</b>.
+[Documentação](https://kitsu.docs.apiary.io/)
+
+## Instalação
+
+Copie o repositório em sua máquina e rode em seu terminal o comando:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+e logo em seguida o comando para subir o servidor de desenvolvimento
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+(necessário possuir o Nodejs em sua máquina)
